@@ -4,7 +4,7 @@ import { removeFromCart, updateQuantity } from "../redux/cartSlice";
 import { Button, Typography, Card, CardContent, TextField, Container } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 
-const Cart =()=> {
+const Cart =React.memo(()=> {
   const cart = useSelector((state) => state.cart);
   const dispatch = useDispatch();
   const navigate = useNavigate();
@@ -45,6 +45,6 @@ const Cart =()=> {
       </Button>
     </Container>
   );
-}
+})
 
 export default Cart;

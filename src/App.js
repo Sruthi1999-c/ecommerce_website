@@ -1,12 +1,13 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link, useNavigate } from "react-router-dom";
-import Home from "./pages/Home";
-import Cart from "./pages/Cart";
 import { Container, AppBar, Toolbar, Typography, Button } from "@mui/material";
 import { useSelector } from "react-redux";
-import Payment from "./pages/Payment";
 import ReactGA from "react-ga4";
-import PaymentSummary from "./pages/paymentsummery";
+import { lazy} from "react";
+
+const Payment = lazy(() => import("./pages/Payment"));
+const Cart = lazy(() => import("./pages/Cart"));
+const Home =  lazy(() => import("./pages/Home"));
 
 const TRACKING_ID = "G-SCZDN9PERB"
 ReactGA.initialize(TRACKING_ID);
@@ -27,7 +28,6 @@ const App =()=> {
           <Route path="/" element={<Home />} />
           <Route path="/cart" element={<Cart />} />
           <Route path= "/payment" element = {<Payment/>}></Route>
-          <Route path = "/paymentsummery" element = {<PaymentSummary/>}></Route>
         </Routes>
       </Container>
     </Router>
