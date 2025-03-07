@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import useAPI from "/Users/sruthiemula/Desktop/e-commerce/ecommerce/src/Hooks/useAPI";
+import useAPI from "../Hooks/useAPI"
 import { Card, CardMedia, CardContent, Typography, CardActions, Button, CircularProgress, Alert } from "@mui/material";
 import { useDispatch } from "react-redux";
 import { addToCart } from "../redux/cartSlice";
