@@ -9,7 +9,7 @@ const Payment = lazy(() => import("./pages/Payment"));
 const Cart = lazy(() => import("./pages/Cart"));
 const Home =  lazy(() => import("./pages/Home"));
 
-const TRACKING_ID = "G-SCZDN9PERB"
+const TRACKING_ID = "G-Q8CV9V8GJN"
 ReactGA.initialize(TRACKING_ID);
 
 const App =()=> {
