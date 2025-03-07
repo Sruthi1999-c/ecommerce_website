@@ -64,12 +64,14 @@ This project fetches data from the **Fake Store API**:
 
 
 🛒 Shopping & Cart
+
 Browse products from the Fake Store API.
 Add or remove items from the cart.
 View cart details and total price.
 
 
 💳 Checkout & Payment
+
 Supports multiple payment methods:
 ✅ Google Pay
 ✅ PhonePe
@@ -79,6 +81,7 @@ Secure order placement.
 
 
 📢 User Experience
+
 Responsive Design (mobile-friendly UI).
 Optimized Performance using:
 React.memo for cart items.
