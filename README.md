@@ -61,10 +61,14 @@ This project fetches data from the **Fake Store API**:
 🔗 [https://fakestoreapi.com/]
 
 🌟 Features
+
+
 🛒 Shopping & Cart
 Browse products from the Fake Store API.
 Add or remove items from the cart.
 View cart details and total price.
+
+
 💳 Checkout & Payment
 Supports multiple payment methods:
 ✅ Google Pay
@@ -72,6 +76,8 @@ Supports multiple payment methods:
 ✅ Cash on Delivery (COD)
 Enter and save your shipping address.
 Secure order placement.
+
+
 📢 User Experience
 Responsive Design (mobile-friendly UI).
 Optimized Performance using:
