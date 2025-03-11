@@ -61,6 +61,7 @@ This project fetches data from the **Fake Store API**:
 🔗 [https://fakestoreapi.com/]
 
 🌟 Features
+
 🛒 Shopping & Cart
 Browse products from the Fake Store API.
 Add or remove items from the cart.
@@ -78,6 +79,8 @@ Optimized Performance using:
 React.memo for cart items.
 Lazy Loading for components.
 Material-UI Styling for a clean, modern look.
+
+Live Website: https://ecommerce-website-drab-xi.vercel.app/
 
 
 
