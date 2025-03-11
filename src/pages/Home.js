@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import useAPI from "/Users/sruthiemula/Desktop/e-commerce/ecommerce/src/Hooks/useAPI";
 import { Card, CardMedia, CardContent, Typography, CardActions, Button, CircularProgress, Alert } from "@mui/material";
-import { useDispatch } from "react-redux";
+import { useDispatch,} from "react-redux";
 import { addToCart } from "../redux/cartSlice";
 
 function Home() {
@@ -18,9 +18,9 @@ function Home() {
   return (
     <div>
     <h1>List of Products</h1>
+ 
     <label>Search Product<input
     type = "text" 
-    variant="h3"
      margin="normal"
     value = {search}
     onChange={(e) => setSearch(e.target.value)}
